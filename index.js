@@ -46,3 +46,10 @@ exports.newKey = () => {
   return crypto.randomBytes(16).toString('hex')
 }
 
+exports.hash = ({ text, salt, algorithm = 'sha256' }, callback) => {
+  salt = salt == undefined ? process.env.HASH_SALT : salt
+  if (salt == undefined) salt = ''
+  newHash = crypto.createHash(algorithm).update(salt + text).digest('hex')
+  callback(null, newHash)
+}
+
