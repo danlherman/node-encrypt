@@ -42,3 +42,7 @@ exports.decrypt = ({ cipher, key, algorithm = 'aes-256-cbc' }, callback) => {
   callback(null, plaintext)
 }
 
+exports.newKey = () => {
+  return crypto.randomBytes(16).toString('hex')
+}
+
