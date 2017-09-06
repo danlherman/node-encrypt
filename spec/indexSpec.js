@@ -38,12 +38,3 @@ describe ('Encryption / Decryption', () => {
   })
 })
 
-// cipher = ne.encrypt({text: 'foo', key: }, (err, ciphertext) => {
-//   if (err) console.log(err)
-//   console.log(ciphertext)
-//   ne.decrypt({cipher: ciphertext, key: 'f66de9e326b4a7defaa0b1e0f015a140'}, (err, plaintext) => {
-//     if (err) console.log(err)
-//     console.log(`Decrypted value: ${plaintext}`)
-//   })
-// })
-//
