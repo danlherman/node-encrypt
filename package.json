@@ -13,7 +13,7 @@
   ],
   "author": "Dan Herman <dherman@intratechs.com>",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "jasmine-node": "^1.14.5"
   }
 }
