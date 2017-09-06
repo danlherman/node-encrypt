@@ -1,0 +1,19 @@
+{
+  "name": "node-encrypt",
+  "version": "1.0.0",
+  "description": "Encrypt/Decrypt and create hashes easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "hash"
+  ],
+  "author": "Dan Herman <dherman@intratechs.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
