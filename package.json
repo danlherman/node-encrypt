@@ -12,6 +12,10 @@
     "hash"
   ],
   "author": "Dan Herman <dherman@intratechs.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danlherman/node-encrypt.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "jasmine-node": "^1.14.5"
