@@ -47,6 +47,7 @@ describe ('Encryption / Decryption', () => {
       })
     })
     it ('creates a hash without a salt', () => {
+      process.env.HASH_SALT = ''
       ne.hash ( { text: 'foo' }, (err, hash) => {
         expect (hash).toBe(fooHash)
       })
